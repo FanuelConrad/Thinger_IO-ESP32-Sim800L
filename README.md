@@ -3,7 +3,6 @@
  <img  src="Images/1654417801058.jpg" alt="Project logo"></a>
 </p>
 
-
 <h3 align="center">Thinger.IO ESP32 Sim800L</h3>
 
 <div align="center">

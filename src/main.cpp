@@ -1,15 +1,16 @@
+#define THINGER_SERIAL_DEBUG
 #define _DISABLE_TLS_
 
 // Select your modem:
 #define TINY_GSM_MODEM_SIM800
 
 // uncomment line for debug
-#define _DEBUG_
+//#define _DEBUG_
 
 // Can be installed from Library Manager or https://github.com/vshymanskyy/TinyGSM
 #include <TinyGsmClient.h>
 #include <ThingerTinyGSM.h>
-
+#include <ThingerESP32OTA.h>
 HardwareSerial Serial4(2);
 
 #define USERNAME "LCSolutions"
@@ -27,7 +28,7 @@ HardwareSerial Serial4(2);
 #define LED_BUILTIN 13
 
 ThingerTinyGSM thing(USERNAME, DEVICE_ID, DEVICE_CREDENTIAL, Serial4);
-// ThingerESP32OTA ota(thing);
+ //ThingerESP32OTA ota(thing);
 
 void setup() {
   // uncomment line for debug
@@ -40,6 +41,7 @@ void setup() {
 
   // set PIN (optional)
   // thing.setPIN(CARD_PIN);
+//ota.set_enabled(true);
 
   // resource input example (i.e, controlling a digitalPin);
   pinMode(LED_BUILTIN, OUTPUT);
