@@ -1,8 +1,9 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="C:\Users\FANUEL CONRAD\Documents\PlatformIO\Projects\Thinger_IO ESP32 Sim800L\Images\1654417801058.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="Images/1654417801058.jpg" alt="Project logo"></a>
 </p>
 
+![My Image](Images/1654417801058.jpg)
 <h3 align="center">Thinger.IO ESP32 Sim800L</h3>
 
 <div align="center">
