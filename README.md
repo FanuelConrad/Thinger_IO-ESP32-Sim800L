@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="C:\Users\FANUEL CONRAD\Documents\PlatformIO\Projects\Thinger_IO ESP32 Sim800L\Images\1654417801058.jpg" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Thinger.IO ESP32 Sim800L</h3>
@@ -19,7 +19,7 @@
 <p align="center">
 
  Connect to [Thinger.io](https://thinger.io/) via ESP32 and GSM Sim800L
-    <br> 
+    <br>
 </p>
 
 ## 📝 Table of Contents
@@ -30,13 +30,13 @@
 - [Usage](#usage)
 - [Built Using](#built_using)
 - [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
+- [Contributing](#contributing)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+The project shows an easy way to use GSM Sim800L to connect your ESP32 to the [Thinger.io](https://thinger.io/) IoT platform. This project is specifically designed for the Arduino IDE/Platformio, so you can easily configure your environment and start connecting your ESP32 within minutes.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -45,10 +45,13 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 [TinyGSM](https://github.com/vshymanskyy/TinyGSM) library
+
 ```
 #include <TinyGsmClient.h>
 ```
+
 [ThingerTinyGSM](https://github.com/thinger-io/Arduino-Library) library
+
 ```
 #include <ThingerTinyGSM.h>
 ```
@@ -155,19 +158,18 @@ Add additional notes about how to deploy this on a live system.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Thinger.io](https://thinger.io/) - IoT Platform
+- [PlatformIO](https://platformio.org/) - Integreted Development Environment (IDE)
+- [Arduino](https://www.arduino.cc/) - Framework
 
 ## ✍️ Authors <a name = "authors"></a>
 
 - [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+## ✍️ Contributing <a name = "contributing"></a>
+
+- [@Ega](https://community.thinger.io/u/ega/summary)
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+- [Thinger.io community](https://community.thinger.io/)
