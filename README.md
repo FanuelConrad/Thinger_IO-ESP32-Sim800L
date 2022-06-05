@@ -1,15 +1,15 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="Images/1654417801058.jpg" alt="Project logo"></a>
+ <img  src="Images/1654417801058.jpg" alt="Project logo"></a>
 </p>
 
-![My Image](Images/1654417801058.jpg)
+
 <h3 align="center">Thinger.IO ESP32 Sim800L</h3>
 
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
+[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/FanuelConrad/Thinger_IO-ESP32-Sim800L/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
@@ -165,7 +165,7 @@ Add additional notes about how to deploy this on a live system.
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+- [@FanuelConrad](https://github.com/FanuelConrad) - Idea & Initial work
 
 ## ✍️ Contributing <a name = "contributing"></a>
 
